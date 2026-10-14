@@ -1,0 +1,51 @@
+
+
+
+
+db.data.insertone({
+    name:"pavan"
+    age:23
+},
+{
+    name:"vamshi"
+    age:23
+},
+{
+    name:"kiran"
+    age:23
+}
+)
+
+db.data.insertMany([
+    {
+        name: "pavan",
+        age: 23,
+        role:"IT"
+    },
+    {
+        name: "vamshi",
+        age: 23,
+        role:"SFT"
+    },
+    {
+        name: "anil",
+        age: 23,
+        role:"SFT"
+    },
+    {
+        name: "Anil",
+        age: 23,
+        role:"SFT"
+    },
+    {
+        name: "santosh",
+        age: 23,
+        role:"SFT"
+    },
+    {
+        name: "lokesh",
+        age: 23,
+        role:"SFT"
+    }
+
+])
